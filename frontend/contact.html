@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Validator</title>
+    <link rel="stylesheet" href="style/input-form.css"/>
+    <link href="style/global.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+    <ul>
+        <li><a href="index.html">Welcome-Page</a></li>
+        <li><a class="active">Contact</a></li>
+    </ul>
+    <form id="form" class="form">
+        <h2>Our contact form</h2>
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Enter email"/>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="firstName">Firstname</label>
+            <input type="text" id="firstName" placeholder="Enter your firstname"/>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="lastName">Name</label>
+            <input type="text" id="lastName" placeholder="Enter your lastname"/>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter username"/>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="mobile">Phone number</label>
+            <input type="text" id="mobile" placeholder="Enter phone number"/>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password"/>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" placeholder="Enter password"/>
+            <small>Error message</small>
+        </div>
+        <div class="form-control">
+            <label for="ahv-number">AHV Number</label>
+            <input type="text" id="ahv-number" placeholder="Enter AHV-Number"/>
+            <small>Error message</small>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<script src="script/validate-inputs.js"></script>
+<script src="script/network.js"></script>
+</body>
+<footer>
+    Simon Martinez
+</footer>
+</html>
